@@ -1,0 +1,20 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="student_payment.aspx.cs" Inherits="admin.student_payment" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:GridView ID="GridView91" runat="server" AutoGenerateColumns="true"></asp:GridView>
+            <br />
+            <br />
+            <asp:Button ID="back" runat="server"  OnClick="Back" Text="Back" />
+
+        </div>
+    </form>
+</body>
+</html>
